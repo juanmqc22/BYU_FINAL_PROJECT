@@ -1,0 +1,53 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Practice 1",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-practice1",
+            "program": "${workspaceFolder}/Practice1/bin/Debug/net6.0/Practice1.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Practice1",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Practice 2",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-practice2",
+            "program": "${workspaceFolder}/Practice2/bin/Debug/net6.0/Practice2.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Practice2",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Practice 3",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-practice3",
+            "program": "${workspaceFolder}/Practice3/bin/Debug/net6.0/Practice3.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Practice3",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Practice 4",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-practice4",
+            "program": "${workspaceFolder}/Practice4/bin/Debug/net6.0/Practice4.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Practice4",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        }   
+    ]
+}
